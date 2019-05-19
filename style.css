@@ -3120,7 +3120,7 @@ textarea {
 @media (max-width: 1270px) { 
     .sd-logo{
         width: 40px;
-        transform: scale(2.1);
+        transform: scale(1.5);
     }
 	.navbar-header {
 	    padding: 0 40px
