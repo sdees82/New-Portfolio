@@ -1,82 +1,53 @@
-<div class="swiper-wrapper"> <a class="arrow-left" href="#"></a> <a class="arrow-right" href="#"></a>
-  <div class="swiper-container gallery">
-    <div class="swiper">
-      <div class="item">
-        <figure class="frame"><img src="style/images/art/pp2-1.jpg" alt="" /></figure>
-      </div>
-      <!-- /.item -->
-      <div class="item">
-        <figure class="frame"><img src="style/images/art/pp2-2.jpg" alt="" /></figure>
-      </div>
-      <!-- /.item -->
-      <div class="item">
-        <figure class="frame"><img src="style/images/art/pp2-3.jpg" alt="" /></figure>
-      </div>
-      <!-- /.item -->
-      <div class="item">
-        <figure class="frame"><img src="style/images/art/pp2-4.jpg" alt="" /></figure>
-      </div>
-      <!-- /.item -->
-      <div class="item">
-        <figure class="frame"><img src="style/images/art/pp2-5.jpg" alt="" /></figure>
-      </div>
-      <!-- /.item -->
-      <div class="item">
-        <figure class="frame"><img src="style/images/art/pp2-6.jpg" alt="" /></figure>
-      </div>
-      <!-- /.item -->
-      <div class="item">
-        <figure class="frame"><img src="style/images/art/pp2-7.jpg" alt="" /></figure>
-      </div>
-      <!-- /.item -->
-      <div class="item">
-        <figure class="frame"><img src="style/images/art/pp2-8.jpg" alt="" /></figure>
-      </div>
-      <!-- /.item -->
-    </div>
-    <!-- /.swiper -->
-  </div>
-  <!-- /.swiper-container -->
-</div>
-<!-- /.swiper-wrapper -->
-
-<div class="container inner">
+<div class="container inner tp0">
   <div class="box">
-	  
-    <h1 class="post-title">Project Details</h1>
-    <p>Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+    <div class="slider-pro portfolio-slider">
+      <div class="sp-slides">
+        <div class="sp-slide"> <img class="sp-image" src="style/images/art/weather-app-large.jpg" alt="" />
+          <h4 class="sp-layer sp-overlay sp-padding" 
+					data-position="leftBottom" data-horizontal="40" data-vertical="92"
+					data-show-transition="right" data-show-delay="500" > Weather App </h4>
+          <p class="sp-layer sp-overlay sp-padding" 
+					data-position="leftBottom"  data-horizontal="40" data-vertical="40" 
+					data-show-transition="left" data-show-delay="700"> React </p>
+        </div>
+      </div>
+      <!-- /.sp-slides -->
+      <!-- <div class="sp-thumbnails"> 
+	      <img class="sp-thumbnail" src="style/images/art/pp1-th1.jpg" alt="" /> 
+	      <img class="sp-thumbnail" src="style/images/art/pp1-th2.jpg" alt="" /> 
+	      <img class="sp-thumbnail" src="style/images/art/pp1-th3.jpg" alt="" /> 
+	      <img class="sp-thumbnail" src="style/images/art/pp1-th4.jpg" alt="" /> 
+	  </div> -->
+	  <!-- /.sp-thumbnails -->
+    </div>
+    <!-- /.slider-pro -->
+    
+    <div class="divide50"></div>
+    
+    <h1 class="post-title">Weather App</h1>
+    <p>This weather application for created with ReactJS. I used the Forecast Weather Api for weather data.</p>
     <div class="divide10"></div>
-    <a href="#" class="btn">More Info</a> 
+    <a target="_blank" href="https://thirsty-lalande-df160b.netlify.com/" class="btn">Visit Website</a> 
     
   </div>
   <!-- /.box -->
 </div>
 <!-- /.container -->
 
-
-
-
 <!-- INSERT PAGE SCRIPTS HERE -->
 <script type="text/javascript">
-	$('.swiper-container.gallery').each(function(){
-		  $(this).swiper({
-		     grabCursor: true,
-		    slidesPerView: 'auto',
-		    wrapperClass: 'swiper',
-		    slideClass: 'item',
-		    offsetPxBefore: 0,
-		     offsetPxAfter: 0
-		  });
-		
-		  var $swipers = $(this);
-		
-		  $swipers.siblings('.arrow-left').click(function(){
-		$swipers.data('swiper').swipeTo($swipers.data('swiper').activeIndex-1);
-		return false;
+		$( '.portfolio-slider' ).sliderPro({
+			width: 1070,
+			height: 600,
+			fade: true,
+			arrows: true,
+			buttons: false,
+			autoHeight: true,
+			autoScaleLayers: true,
+			thumbnailArrows: false,
+			autoplay: false,
+			slideDistance: 0,
+			thumbnailWidth: 125,
+			thumbnailHeight: 80
 		});
-		$swipers.siblings('.arrow-right').click(function(){
-		$swipers.data('swiper').swipeTo($swipers.data('swiper').activeIndex+1);
-		return false;
-		});
-	});
 </script>
