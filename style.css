@@ -1304,7 +1304,7 @@ figure a .text-overlay .info span {
     color: #FFF;
 }
 .revolution .small {
-    font-size: .8em !important;
+    font-size: 22px;
     letter-spacing: 0.3px;
     font-family: 'Libre Baskerville', serif;
     font-style: italic;
@@ -3344,4 +3344,13 @@ textarea {
 	.classic-view figure.main {
 	    margin: -25px -25px 25px -25px
 	}
+}
+
+@media screen and (max-width: 500px){
+    .large-caption-banner{
+        font-size: 1em;
+    }
+    .small-caption-banner{
+        font-size: 1em;
+    }
 }
