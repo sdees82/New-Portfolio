@@ -403,7 +403,10 @@
 	.sp-button {
 		width: 18px;
 		height: 18px;
-	}
+  }
+  .tp-caption{
+    font-size: calc(18px + 0.25vw); 
+  }
 }
 
 /* Arrows
