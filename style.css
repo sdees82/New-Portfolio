@@ -134,10 +134,10 @@ body {
     -moz-animation: rotation .8s infinite linear;
     -o-animation: rotation .8s infinite linear;
     animation: rotation .8s infinite linear;
-    border-left: 3px solid rgba(156,188,104,.15);
-    border-right: 3px solid rgba(156,188,104,.15);
-    border-bottom: 3px solid rgba(156,188,104,.15);
-    border-top: 3px solid rgba(156,188,104,.8);
+    border-left: 3px solid #b2a37d ;
+    border-right: 3px solid #b2a37d ;
+    border-bottom: 3px solid #b2a37d ;
+    border-top: 3px solid #b2a37d;
     border-radius: 100%;
 }
 /*-----------------------------------------------------------------------------------*/
