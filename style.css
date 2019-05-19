@@ -3250,7 +3250,7 @@ textarea {
 	    width: auto;
 	    height: auto;
 	    z-index: -100;
-	    background: url('style/video/detroit.png') center center no-repeat;
+	    background: url('style/video/detroit.jpg') center center no-repeat;
 	    background-size: cover;
 	}
 	#bgvid { 
