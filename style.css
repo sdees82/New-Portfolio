@@ -1304,7 +1304,7 @@ figure a .text-overlay .info span {
     color: #FFF;
 }
 .revolution .small {
-    font-size: 1em !important;
+    font-size: .8em !important;
     letter-spacing: 0.3px;
     font-family: 'Libre Baskerville', serif;
     font-style: italic;
