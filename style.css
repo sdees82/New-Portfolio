@@ -3347,6 +3347,9 @@ textarea {
 }
 
 @media screen and (max-width: 500px){
+    video{
+        display: none;
+    }
     .footer{
         margin-top: 0px;
         margin-bottom: 0px;
