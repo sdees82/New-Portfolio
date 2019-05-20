@@ -497,4 +497,4 @@ $('#instafeed').each(function() {
 
 const copyright = document.querySelector(".copyright");
 const date = new Date();
-copyright.textContent = `Developed by Sean Dees ` + date.getFullYear();
+copyright.innerHTML = `<span>Made with <i class="budicon-heart"></i> in Detroit </span>` + date.getFullYear();
