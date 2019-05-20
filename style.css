@@ -3348,9 +3348,10 @@ textarea {
 
 @media screen and (max-width: 500px){
     .large-caption-banner{
-        font-size: 1em;
+        font-size: 2em !important;
+        margin-bottom: 1.2em !important;
     }
     .small-caption-banner{
-        font-size: 1em;
+        font-size: .8em !important;
     }
 }
