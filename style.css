@@ -3347,11 +3347,26 @@ textarea {
 }
 
 @media screen and (max-width: 500px){
+    .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    section{
+        margin-bottom: 0em;
+    }
+    .icon-down-open-big{
+        color: #000;
+    }
+    .video-overlay{
+        background: #fff !important;
+    }
     .large-caption-banner{
+        color: #000 !important;
         font-size: 2em !important;
         margin-bottom: 1.2em !important;
     }
     .small-caption-banner{
-        font-size: .8em !important;
+        color: #000!important;
+        font-size: .85em !important;
     }
 }
