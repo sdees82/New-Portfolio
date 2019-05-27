@@ -2144,10 +2144,7 @@ ul.layout-switcher li a.active {
     border-color: #5ecbf3;
     color: #5ecbf3;
 }
-.social .icon-s-github{
-    border-color: #b2a37d;
-    color: #b2a37d;
-}
+
 .social .icon-s-tumblr {
     border-color: #829fb9;
     color: #829fb9;
@@ -2184,9 +2181,9 @@ ul.layout-switcher li a.active {
     border-color: #6ba3c5;
     color: #6ba3c5;
 }
-.social .icon-s-github {
-    border-color: #6c93bb;
-    color: #6c93bb;
+.social .icon-s-github{
+    border-color: #b2a37d;
+    color: #b2a37d;
 }
 .social .icon-s-songkick {
     border-color: #ff3b60;
@@ -2296,8 +2293,9 @@ ul.layout-switcher li a.active {
 .social a:hover .icon-s-dropbox {
     background-color: #6ba3c5
 }
-.social a:hover .icon-s-github {
-    background-color: #6c93bb
+.social .icon-s-github{
+    border-color: #b2a37d;
+    color: #b2a37d;
 }
 .social a:hover .icon-s-songkick {
     background-color: #ff3b60
