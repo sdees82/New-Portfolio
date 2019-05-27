@@ -2243,7 +2243,8 @@ ul.layout-switcher li a.active {
     background-color: #677fb5
 }
 .social a:hover .icon-s-twitter {
-    background-color: #70c2e9
+    background-color: #b2a37d;
+    color: #fff;
 }
 .social a:hover .icon-s-flickr {
     background-color: #ff3ba4
@@ -2314,6 +2315,10 @@ ul.layout-switcher li a.active {
 }
 .social a:hover .icon-s-lastfm {
     background-color: #cd443d
+}
+.social a:hover .icon-s-github{
+    background-color: #b2a37d;
+    color: #fff;
 }
 .social a:hover .icon-s-spotify {
     background-color: #9acf48
